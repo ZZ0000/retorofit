@@ -142,20 +142,20 @@ public class MainActivity extends AppCompatActivity implements ReposView, View.O
 
         TextView mTextView = holder.mTextView;
         String nameRepo = holder.mTextView.getText().toString();
-        SpannableString ss = new SpannableString(nameRepo);
-        ClickableSpan clickableSpan = new ClickableSpan() {
-
-            @Override
-            public void onClick(View textView) {
-                //startActivity(new (MyActivity.this, NextActivity.class));
-                Toast.makeText(MainActivity.this, nameRepo, Toast.LENGTH_SHORT).show();
-            }
-        };
-        ss.setSpan(clickableSpan, 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
-        ss.setSpan(new ForegroundColorSpan(Color.BLUE), 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-
-        mTextView.setText(ss);
-        mTextView.setMovementMethod(LinkMovementMethod.getInstance());
+//        SpannableString ss = new SpannableString(nameRepo);
+//        ClickableSpan clickableSpan = new ClickableSpan() {
+//
+//            @Override
+//            public void onClick(View textView) {
+//                //startActivity(new (MyActivity.this, NextActivity.class));
+//                //Toast.makeText(MainActivity.this, nameRepo, Toast.LENGTH_SHORT).show();
+//            }
+//        };
+//        ss.setSpan(clickableSpan, 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+//        ss.setSpan(new ForegroundColorSpan(Color.BLUE), 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+//
+//        mTextView.setText(ss);
+//        mTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         String url = holder.getRepo().getHtmlUrl();
 //        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();

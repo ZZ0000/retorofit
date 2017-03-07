@@ -2,21 +2,21 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="2dp"
-    android:orientation="vertical"
-    android:padding="1dp">
+    android:layout_height="56dp"
+    android:gravity="center_vertical|left"
+    android:orientation="horizontal"
+    android:id="@+id/recycler_item_root">
+
 
     <TextView
         android:id="@+id/tv_recycler_item"
-        android:text="@string/hello_world"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-
-
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:text="@string/hello_world"
+
+        android:background="#FFFF90"
         android:textSize="18sp"
         />
 

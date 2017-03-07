@@ -1,6 +1,9 @@
 package com.example.java.retrofit.model;
 
+import android.content.Context;
 import android.graphics.Color;
+import android.net.Uri;
+import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.widget.RecyclerView;
 import android.text.SpannableString;
 import android.text.Spanned;
@@ -27,6 +30,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
     //private String[] mDataset;
     private List<Repo> mDataset;
     private View.OnClickListener mOnItemClickListener = null;
+    CustomTabsIntent mCustomTabsIntent;
 
 
     // Конструктор
@@ -87,6 +91,32 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             mTextView.setText(nameRepo);
 //            mSecondaryTextView.setText(note.getText());
 //            mDateTextView.setText(note.getTime());
+//            mTextView.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//
+//                }
+//            });
+
+            SpannableString ss = new SpannableString(nameRepo);
+            ClickableSpan clickableSpan = new ClickableSpan() {
+
+                @Override
+                public void onClick(View view) {
+                    Toast.makeText(view.getContext(), nameRepo, Toast.LENGTH_SHORT).show();
+                }
+            };
+            ss.setSpan(clickableSpan, 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
+            ss.setSpan(new ForegroundColorSpan(Color.BLUE), 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+            mTextView.setText(ss);
+            mTextView.setMovementMethod(LinkMovementMethod.getInstance());
+
+//            mCustomTabsIntent = new CustomTabsIntent.Builder(mCustomTabsSession)
+//                    .setShowTitle(true)
+//                    .build();
+//
+//            mCustomTabsIntent.launchUrl(this, Uri.parse(url));
 
 
        }
