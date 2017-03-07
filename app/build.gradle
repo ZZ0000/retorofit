@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'realm-android'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.example.java.retrofit2"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+buildscript {
+    ext.retrofitVersion = '2.1.0'
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'me.tatarka:gradle-retrolambda:3.4.0'
+        classpath "io.realm:realm-gradle-plugin:2.2.2"
+
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:design:25.0.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:recyclerview-v7:25.0.+'
+
+    compile "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    compile "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}"
+    compile "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.0'
+
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile ('com.jakewharton.rxbinding:rxbinding-appcompat-v7:1.0.0') {
+        exclude group: 'com.android.support'
+    }
+    compile 'com.android.support:customtabs:25.0.0'
+    compile 'com.android.support.test.espresso:espresso-core:2.2.2'
+}
