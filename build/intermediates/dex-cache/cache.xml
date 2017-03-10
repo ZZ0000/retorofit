@@ -3,309 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_52f4731624e2b40d38c2b4f84d5bf42f9d238da1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_b8753a7c099bdd9fb1fb12feb330cc277fb9d3ea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-library-1.3_1856ae94b069a67141c1f25a587b4c9da23e8954\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.0\ba14d8b7789efde5ee150eacb297b7237abca39\logging-interceptor-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ba14d8b7789efde5ee150eacb297b7237abca39">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.3.0_30c9d119ad8d06387a558943457d3c682529f2f3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-runner-0.5_6a3341295f4e95fac99f8a6f693fd5d97b317e06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_1d4b579051b0b15fefd20e64260ffe25f32c4e5f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_fd6d14dfbe684f6c04aabf74e899e0831ae202de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_7466bc1cbbc925085332e2a666e53e9779d1149c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f9933e7b3d58c9ba9adee651bb2c4bb9b6187ad9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_57f2584ee74fa9d3e9f36b5da37e840992183ad0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_6980b6d9c2ab0eef4c0d7ab330319259f2ef1456\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getkeepsafe.relinker-relinker-1.2.2_a366595929bdba9fe7383000ac9d60942e131eb0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_699ad01620e458671a2d3f5d63bd3c3f9229ed79\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_ff8aae4c98e98556fe07b50a81df37aa9b75efa8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_835757848b5aa3eef3e6b0a3f7a051366fd212d9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_334d4c212f36b8f3d4bd4e5f8456e281f7ab4f88\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="00745fca0f54b0c83c6dd9d14b5af16fff39be68">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_da81f1e98791a3820c4eb8b3b90c22c32313f0cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a33c0ff2b9d78329d217a89a42fa84229dc69ba6">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2abeb0beb295a025fdf9f9af7ddf11e09716cbfc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.2.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test.espresso-espresso-core-2.2.2_5f05e7c73fcc4ad9a5dea58ecb6a2fed2a85ca04\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.3\7fe1a94c1aeb958acc876fe616922cc191f3222c\rxjava-1.2.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7fe1a94c1aeb958acc876fe616922cc191f3222c">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.2.3_abc3dcf3a8e40613df6308acf82e84bfc8f45bc3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.2.1_7ce1a4194d049269d58bb9842bed59355da54bdc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-runner-0.5_274091cd71935cd85af7a40f50032f5ed0fc8f1a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_ce4498fb352defcc7ce6f38aebe4b065536cd532\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_374335117dc055c86653cd92b488101a417255b7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_8018959b5983ae3ceb779031ee95fc431ea517d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-exposed-instrumentation-api-publish-0.5_6330278dfda526a2be063690ac4f6dd8b3931183\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_34c71d2a806f3f84c1f17c5076c676a894eee78f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_aee79095ed62e8db7f6768d54bfb80f52448d6e1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_43d3bbd1da2072935e38da373c28ce00858dbd2c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_9c2aacc1617045664baa6819bd9a2aa9a1433b0e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-integration-1.3_c16c698560051b98d20ffa3c3ff363f09bbe9a47\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-rules-0.5_710b7ce0e0ebdb1c6db6cd6fa8c13de2168aab4c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e92083c4fd64448e2187dd1b870da820a1139c15\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_cf7f33847494298cfc68adce37413d68093e1785\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_52f4731624e2b40d38c2b4f84d5bf42f9d238da1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,12 +66,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_b8753a7c099bdd9fb1fb12feb330cc277fb9d3ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.2.2\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test.espresso-espresso-core-2.2.2_902381bcc73589d91859855b6db0efc04ded3dd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-library-1.3_1856ae94b069a67141c1f25a587b4c9da23e8954\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -372,12 +102,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.0\ba14d8b7789efde5ee150eacb297b7237abca39\logging-interceptor-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ba14d8b7789efde5ee150eacb297b7237abca39">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.3.0_30c9d119ad8d06387a558943457d3c682529f2f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-idling-resource\2.2.2\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a890ee8445927649d9ed50f625a315d8758688be">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test.espresso-espresso-idling-resource-2.2.2_cf7241c524a96e2d56966d7556ed58e231a4413a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-runner-0.5_6a3341295f4e95fac99f8a6f693fd5d97b317e06\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -390,12 +138,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_1d4b579051b0b15fefd20e64260ffe25f32c4e5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_3c91944ac23537249ae21783afd9cfb9798e3bc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_fd6d14dfbe684f6c04aabf74e899e0831ae202de\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -432,6 +198,24 @@
         revision="25.0.0"
         sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\javawriter-2.1.1_502519b026f13b4479fd860fa88c4d5af276be67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_7466bc1cbbc925085332e2a666e53e9779d1149c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f9933e7b3d58c9ba9adee651bb2c4bb9b6187ad9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -480,6 +264,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_57f2584ee74fa9d3e9f36b5da37e840992183ad0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
         jumboMode="true"
         optimize="true"
@@ -507,12 +300,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_6980b6d9c2ab0eef4c0d7ab330319259f2ef1456\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f2617a243fffc9efebf34e46a8c44dbe3d343e5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getkeepsafe.relinker-relinker-1.2.2_a366595929bdba9fe7383000ac9d60942e131eb0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -543,6 +354,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_699ad01620e458671a2d3f5d63bd3c3f9229ed79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_ff8aae4c98e98556fe07b50a81df37aa9b75efa8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_835757848b5aa3eef3e6b0a3f7a051366fd212d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -552,12 +390,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_334d4c212f36b8f3d4bd4e5f8456e281f7ab4f88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00745fca0f54b0c83c6dd9d14b5af16fff39be68">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_da81f1e98791a3820c4eb8b3b90c22c32313f0cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_03815b4d2414c203ad8ed4337b2576df4a551620\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e9f495e4cf993ff64c08a3ab826ca6d6e238a6f">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2abeb0beb295a025fdf9f9af7ddf11e09716cbfc\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -588,6 +453,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.2.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test.espresso-espresso-core-2.2.2_5f05e7c73fcc4ad9a5dea58ecb6a2fed2a85ca04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -597,12 +471,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.3\7fe1a94c1aeb958acc876fe616922cc191f3222c\rxjava-1.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7fe1a94c1aeb958acc876fe616922cc191f3222c">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.2.3_abc3dcf3a8e40613df6308acf82e84bfc8f45bc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-rules-0.5_40fbbc7e330d4eb6d0607a1f44e3cf582118978c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.2.1_7ce1a4194d049269d58bb9842bed59355da54bdc\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -633,12 +525,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-runner-0.5_274091cd71935cd85af7a40f50032f5ed0fc8f1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_ce4498fb352defcc7ce6f38aebe4b065536cd532\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_a8ab000568e846eb0dc232dd3419a9b90a05bdcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_374335117dc055c86653cd92b488101a417255b7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -651,12 +570,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_8018959b5983ae3ceb779031ee95fc431ea517d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.1.0_74ad63387f425549d510fc2ae9f0d45a61b13446\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-exposed-instrumentation-api-publish-0.5_6330278dfda526a2be063690ac4f6dd8b3931183\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_34c71d2a806f3f84c1f17c5076c676a894eee78f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -669,12 +615,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_aee79095ed62e8db7f6768d54bfb80f52448d6e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_43d3bbd1da2072935e38da373c28ce00858dbd2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_9c2aacc1617045664baa6819bd9a2aa9a1433b0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_627fdd116f4d9c55514af28c132f1a7eb548dbc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-integration-1.3_c16c698560051b98d20ffa3c3ff363f09bbe9a47\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -687,12 +669,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-rules-0.5_710b7ce0e0ebdb1c6db6cd6fa8c13de2168aab4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\exploded-aar\io.realm\realm-android-library\2.2.2\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a4b88325124c4bd658ae2717977668646ba9b37a">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit2-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.realm-realm-android-library-2.2.2_b72e4044540dcb28482b7f41599f834d31487911\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_e92083c4fd64448e2187dd1b870da820a1139c15\classes.dex" />
     </item>
     <item
         is-multidex="true"
