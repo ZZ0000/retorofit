@@ -14,10 +14,6 @@ import rx.Single;
  */
 
 public class CommentsRemouteDataSource extends BaseRemouteDataSource implements CommentsDataSource {
-    @Override
-    public void init(Context context) {
-
-    }
 
     @Override
     public Single<List<Commentt>> getComment(String user, String nameRepo) {

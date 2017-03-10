@@ -26,7 +26,7 @@ public class CommentsPresenter implements CommentsDataSource {
     @Override
     public Single<List<Commentt>> getComment(String user, String nameRepo) {
          Single<List<Commentt>> single = commentsRepository.getComment(user,  nameRepo);
-        single.subscribe(list -> commentsView.showComments(list),
+        single.subscribe(list -> commentsView.showComments(list, nameRepo),
                 throwable -> throwable.printStackTrace()); // Throwable::printStackTrace);
 //        Single<List<Repo>> single = reposRepository.getRepos(user);
 //        single.subscribe(list -> reposView.showRepos(list),

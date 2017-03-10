@@ -11,6 +11,6 @@ import java.util.List;
  */
 
 public interface CommentsView {
-    void showComments(List<Commentt> list);
+    void showComments(List<Commentt> list, String nameRepo);
     Context getContex();
 }

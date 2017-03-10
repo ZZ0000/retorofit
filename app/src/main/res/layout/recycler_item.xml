@@ -5,6 +5,7 @@
     android:layout_height="56dp"
     android:gravity="center_vertical|left"
     android:orientation="horizontal"
+
     android:id="@+id/recycler_item_root">
 
 

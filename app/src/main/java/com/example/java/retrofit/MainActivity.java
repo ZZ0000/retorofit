@@ -26,10 +26,17 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.java.retrofit.flow.repos.Presenter.CommentsPresenter;
+import com.example.java.retrofit.flow.repos.View.CommentsView;
+import com.example.java.retrofit.model.Commentt;
 import com.example.java.retrofit.model.Repo;
 import com.example.java.retrofit.flow.repos.Presenter.ReposPresenter;
 import com.example.java.retrofit.flow.repos.View.ReposView;
 import com.example.java.retrofit.model.RecyclerAdapter;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Thing;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.jakewharton.rxbinding.support.v7.widget.RxSearchView;
 
 import java.util.List;
@@ -38,28 +45,35 @@ import java.util.concurrent.TimeUnit;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 
-public class MainActivity extends AppCompatActivity implements ReposView, View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements ReposView, CommentsView, View.OnClickListener, RecyclerAdapter.CallbackOpen_url {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
     private ReposPresenter reposPresenter = new ReposPresenter();
     private Observable<CharSequence> queryObservable = null;
+    private CommentsPresenter commentsPresenter = new CommentsPresenter();
 
     final String CUSTOM_TAB_PACKAGE_NAME = "com.android.chrome";
     CustomTabsServiceConnection mCustomTabsServiceConnection = null;
     CustomTabsSession mCustomTabsSession = null;
     CustomTabsIntent mCustomTabsIntent;
     CustomTabsClient mCustomTabsClient;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.example.java.retrofit.R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(com.example.java.retrofit.R.id.toolbar);
+        setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         reposPresenter.onAttach(this);
+        commentsPresenter.onAttach(this);
 
-        mRecyclerView = (RecyclerView) findViewById(com.example.java.retrofit.R.id.recyclerView);
+        mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
         // если мы уверены, что изменения в контенте не изменят размер layout-а RecyclerView
         // передаем параметр true - это увеличивает производительность
@@ -67,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements ReposView, View.O
         // используем linear layout manager
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
+
 
         mCustomTabsServiceConnection = new CustomTabsServiceConnection() {
             @Override
@@ -82,12 +97,17 @@ public class MainActivity extends AppCompatActivity implements ReposView, View.O
             }
         };
         CustomTabsClient.bindCustomTabsService(this, CUSTOM_TAB_PACKAGE_NAME, mCustomTabsServiceConnection);
+
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(com.example.java.retrofit.R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
@@ -118,9 +138,15 @@ public class MainActivity extends AppCompatActivity implements ReposView, View.O
 
     @Override
     public void showRepos(List<Repo> list) {
-        mAdapter = new RecyclerAdapter(list, this);
+        mAdapter = new RecyclerAdapter(list, this, this);
+        //mAdapter.registerCallBack(this);
         mRecyclerView.setAdapter(mAdapter);
-        //   mAdapter.se
+        //mAdapter.setOnItemClickListener(this);
+    }
+
+    @Override
+    public void showComments(List<Commentt> list, String nameRepo) {
+        Toast.makeText(MainActivity.this, "Количество комментариев: "+list.size()+" ("+nameRepo+")" , Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -138,29 +164,8 @@ public class MainActivity extends AppCompatActivity implements ReposView, View.O
     public void onClick(View view) {
         RecyclerAdapter.MyViewHolder holder = (RecyclerAdapter.MyViewHolder) mRecyclerView.findContainingViewHolder(view);
         if (holder == null) return;
-        //  Toast.makeText(this, holder.getRepo().getUrl(), Toast.LENGTH_SHORT).show();
-
-        TextView mTextView = holder.mTextView;
-        String nameRepo = holder.mTextView.getText().toString();
-//        SpannableString ss = new SpannableString(nameRepo);
-//        ClickableSpan clickableSpan = new ClickableSpan() {
-//
-//            @Override
-//            public void onClick(View textView) {
-//                //startActivity(new (MyActivity.this, NextActivity.class));
-//                //Toast.makeText(MainActivity.this, nameRepo, Toast.LENGTH_SHORT).show();
-//            }
-//        };
-//        ss.setSpan(clickableSpan, 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_INCLUSIVE);
-//        ss.setSpan(new ForegroundColorSpan(Color.BLUE), 0, nameRepo.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-//
-//        mTextView.setText(ss);
-//        mTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         String url = holder.getRepo().getHtmlUrl();
-//        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-//        CustomTabsIntent customTabsIntent = builder.build();
-//       customTabsIntent.launchUrl(this, Uri.parse(url));
 
         mCustomTabsIntent = new CustomTabsIntent.Builder(mCustomTabsSession)
                 .setShowTitle(true)
@@ -169,4 +174,47 @@ public class MainActivity extends AppCompatActivity implements ReposView, View.O
         mCustomTabsIntent.launchUrl(this, Uri.parse(url));
     }
 
+    @Override
+    public void callingBackOpen_url(String user, String nameRepo) {
+        //Toast.makeText(MainActivity.this, url, Toast.LENGTH_SHORT).show();
+        //user = "square";
+        //nameRepo = "okhttp";
+        commentsPresenter.getComment(user, nameRepo);
+    }
+
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    public Action getIndexApiAction() {
+        Thing object = new Thing.Builder()
+                .setName("Main Page") // TODO: Define a title for the content shown.
+                // TODO: Make sure this auto-generated URL is correct.
+                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
+                .build();
+        return new Action.Builder(Action.TYPE_VIEW)
+                .setObject(object)
+                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
+                .build();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        AppIndex.AppIndexApi.start(client, getIndexApiAction());
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.end(client, getIndexApiAction());
+        client.disconnect();
+    }
 }

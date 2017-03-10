@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="9b47d94e35dfb4babc0b520c9f1bd5a6f2470374">
+        sha1="a33c0ff2b9d78329d217a89a42fa84229dc69ba6">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2abeb0beb295a025fdf9f9af7ddf11e09716cbfc\classes.dex" />
     </item>
     <item
@@ -300,6 +300,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_cf7f33847494298cfc68adce37413d68093e1785\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
         jumboMode="true"
         optimize="true"
@@ -396,6 +405,15 @@
         revision="25.0.0"
         sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.test-exposed-instrumentation-api-publish-0.5_468aef43b86fff93c742c2c8c8db03f70f400041\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_64a76c8e8e60d1060a0c146f4a2e8cb8cc0693cb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -561,6 +579,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_fdf9273eb1269c991b076edc0bfef90148b8b3d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -601,7 +628,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f8dc46b8e7d5cd3b5c72ba3f00dfc1bad27f189f">
+        sha1="b2947cf158504a993a9778795fcdd6ddc6a26caa">
         <dex dex="C:\Users\semeykin\AndroidStudioProjects\Retrofit\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ccab427351359d208447cc8f0bfd9686e412ed0c\classes.dex" />
     </item>
     <item

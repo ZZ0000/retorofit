@@ -5,6 +5,7 @@ import com.example.java.retrofit.model.Commentt;
 import java.util.List;
 
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 import rx.Single;
 
 /**
@@ -12,8 +13,7 @@ import rx.Single;
  */
 
 public interface CommentsService {
-    @GET("/users/{user}/repos/{nameRepo}/issues/comments")
-    public Single<List<Commentt>> getComments(String user, String nameRepo);
-
-
+    //https://api.github.com/repos/square/okhttp/issues/comments
+    @GET("/repos/{user}/{nameRepo}/issues/comments")
+    public Single<List<Commentt>> getComments(@Path("user") String user, @Path("nameRepo") String nameRepo);
 }

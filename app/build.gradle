@@ -63,4 +63,5 @@ dependencies {
     }
     compile 'com.android.support:customtabs:25.0.0'
     compile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
 }
