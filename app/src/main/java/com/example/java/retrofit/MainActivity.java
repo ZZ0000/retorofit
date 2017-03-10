@@ -15,15 +15,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
-import android.text.SpannableString;
-import android.text.Spanned;
-import android.text.method.LinkMovementMethod;
-import android.text.style.ClickableSpan;
-import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.java.retrofit.flow.repos.Presenter.CommentsPresenter;
@@ -39,6 +33,8 @@ import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.jakewharton.rxbinding.support.v7.widget.RxSearchView;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -146,7 +142,17 @@ public class MainActivity extends AppCompatActivity implements ReposView, Commen
 
     @Override
     public void showComments(List<Commentt> list, String nameRepo) {
-        Toast.makeText(MainActivity.this, "Количество комментариев: "+list.size()+" ("+nameRepo+")" , Toast.LENGTH_SHORT).show();
+        if (list.size() == 0) {
+            Toast.makeText(MainActivity.this, "Количество комментариев: "+list.size()+" ("+nameRepo+")" , Toast.LENGTH_SHORT).show();
+            return;
+        }
+        //Toast.makeText(MainActivity.this, "Количество комментариев: "+list.size()+" ("+nameRepo+")" , Toast.LENGTH_SHORT).show();
+
+        ArrayList<String> data = new ArrayList<>();
+        for (Commentt commentt : list){
+            data.add(commentt.getBody());
+        }
+        startActivity(CommentsActivity.newInstance(this, data));
     }
 
     @Override
